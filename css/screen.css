@@ -1,3 +1,32 @@
 body {
-  background: khaki;
+  max-width: 42em;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #111;
+  padding: 24px 24px 0px;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+}
+
+::selection {
+  background: #44c8f5;
+  color: white;
+}
+
+img {
+  max-width: 100px;
+  vertical-align: top;
 }
